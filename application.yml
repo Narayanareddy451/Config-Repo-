@@ -1,1 +1,7 @@
 # This application.yml for shared config
+spring:
+  application:
+    name: order-service   # must match order-service.yml in config repo
+  cloud:
+    config:
+      uri: http://localhost:8888

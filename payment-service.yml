@@ -1,1 +1,9 @@
 # this is for payment-service.yml
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/paymentdb
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
